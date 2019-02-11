@@ -7,14 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		41EC5F8422108A2D008CB2C9 /* HivaButtonVertical.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41EC5F8322108A2D008CB2C9 /* HivaButtonVertical.xib */; };
 		41FAC66E21C12949006E9060 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41FAC66D21C12949006E9060 /* AppDelegate.swift */; };
 		41FAC67021C12949006E9060 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41FAC66F21C12949006E9060 /* ViewController.swift */; };
 		41FAC67321C12949006E9060 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41FAC67121C12949006E9060 /* Main.storyboard */; };
 		41FAC67521C1294B006E9060 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41FAC67421C1294B006E9060 /* Assets.xcassets */; };
 		41FAC67821C1294B006E9060 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41FAC67621C1294B006E9060 /* LaunchScreen.storyboard */; };
+		41FAC68021C12965006E9060 /* HivaButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41FAC67F21C12965006E9060 /* HivaButton.swift */; };
+		41FAC68221C13609006E9060 /* HivaButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41FAC68121C13609006E9060 /* HivaButton.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		41EC5F8322108A2D008CB2C9 /* HivaButtonVertical.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HivaButtonVertical.xib; sourceTree = "<group>"; };
 		41FAC66A21C12949006E9060 /* HivaButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HivaButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41FAC66D21C12949006E9060 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		41FAC66F21C12949006E9060 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +26,8 @@
 		41FAC67421C1294B006E9060 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		41FAC67721C1294B006E9060 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		41FAC67921C1294B006E9060 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41FAC67F21C12965006E9060 /* HivaButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HivaButton.swift; sourceTree = "<group>"; };
+		41FAC68121C13609006E9060 /* HivaButton.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HivaButton.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,9 @@
 				41FAC67421C1294B006E9060 /* Assets.xcassets */,
 				41FAC67621C1294B006E9060 /* LaunchScreen.storyboard */,
 				41FAC67921C1294B006E9060 /* Info.plist */,
+				41FAC67F21C12965006E9060 /* HivaButton.swift */,
+				41FAC68121C13609006E9060 /* HivaButton.xib */,
+				41EC5F8322108A2D008CB2C9 /* HivaButtonVertical.xib */,
 			);
 			path = HivaButton;
 			sourceTree = "<group>";
@@ -124,7 +133,9 @@
 			files = (
 				41FAC67821C1294B006E9060 /* LaunchScreen.storyboard in Resources */,
 				41FAC67521C1294B006E9060 /* Assets.xcassets in Resources */,
+				41EC5F8422108A2D008CB2C9 /* HivaButtonVertical.xib in Resources */,
 				41FAC67321C12949006E9060 /* Main.storyboard in Resources */,
+				41FAC68221C13609006E9060 /* HivaButton.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,6 +148,7 @@
 			files = (
 				41FAC67021C12949006E9060 /* ViewController.swift in Sources */,
 				41FAC66E21C12949006E9060 /* AppDelegate.swift in Sources */,
+				41FAC68021C12965006E9060 /* HivaButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
