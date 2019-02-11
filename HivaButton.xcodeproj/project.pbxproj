@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		41CFFE6922119E810058763B /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 41CFFE6822119E810058763B /* README.md */; };
 		41EC5F8422108A2D008CB2C9 /* HivaButtonVertical.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41EC5F8322108A2D008CB2C9 /* HivaButtonVertical.xib */; };
 		41FAC66E21C12949006E9060 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41FAC66D21C12949006E9060 /* AppDelegate.swift */; };
 		41FAC67021C12949006E9060 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41FAC66F21C12949006E9060 /* ViewController.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		41CFFE6822119E810058763B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		41EC5F8322108A2D008CB2C9 /* HivaButtonVertical.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HivaButtonVertical.xib; sourceTree = "<group>"; };
 		41FAC66A21C12949006E9060 /* HivaButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HivaButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41FAC66D21C12949006E9060 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -69,6 +71,7 @@
 				41FAC67F21C12965006E9060 /* HivaButton.swift */,
 				41FAC68121C13609006E9060 /* HivaButton.xib */,
 				41EC5F8322108A2D008CB2C9 /* HivaButtonVertical.xib */,
+				41CFFE6822119E810058763B /* README.md */,
 			);
 			path = HivaButton;
 			sourceTree = "<group>";
@@ -131,6 +134,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41CFFE6922119E810058763B /* README.md in Resources */,
 				41FAC67821C1294B006E9060 /* LaunchScreen.storyboard in Resources */,
 				41FAC67521C1294B006E9060 /* Assets.xcassets in Resources */,
 				41EC5F8422108A2D008CB2C9 /* HivaButtonVertical.xib in Resources */,
